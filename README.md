@@ -1,6 +1,6 @@
 # Odyssey Lift-off follow-along
 
-My personal forko of the Odyssey Lift-Off Apollo-GraphQL tutorial series. I'm only updating this description for some rudimentary pratice interfacing with GitHub.
+My personal fork of the Odyssey Lift-Off Apollo-GraphQL tutorial series. I'm only updating this description for some rudimentary pratice interfacing with GitHub.
 
 Here's [a preview of the completed demo app](https://lift-off-client-demo.netlify.app/) to reference the intended end-result.
 
