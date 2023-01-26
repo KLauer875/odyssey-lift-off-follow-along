@@ -1,6 +1,16 @@
 # Odyssey Lift-off follow-along
 
-My personal fork of the Odyssey Lift-Off Apollo-GraphQL tutorial series. I'm only updating this description for some rudimentary pratice interfacing with GitHub.
+My personal fork of the Odyssey Lift-Off Apollo-GraphQL tutorial series. I'm only updating this description for some rudimentary pratice interfacing with GitHub and to note how far along I am.
+
+~~Lift-off I: Basics~~
+~~Lift-off II: Resolvers~~
+~~Lift-off III: Arguments~~
+Lift-off Lab
+Lift-off IV: Mutations
+Lift-off V: Production & the Schema Registry
+Lift-off: Destination
+Side Quest: Authentication & Authorization
+Side Quest: Intermediate Schema Design
 
 Here's [a preview of the completed demo app](https://lift-off-client-demo.netlify.app/) to reference the intended end-result.
 
