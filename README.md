@@ -5,7 +5,7 @@ My personal fork of the Odyssey Lift-Off Apollo-GraphQL tutorial series. I'm onl
 - ~~Lift-off I: Basics~~
 - ~~Lift-off II: Resolvers~~
 - ~~Lift-off III: Arguments~~
-- Lift-off Lab
+- ~~Lift-off Lab~~
 - Lift-off IV: Mutations
 - Lift-off V: Production & the Schema Registry
 - Lift-off: Destination
