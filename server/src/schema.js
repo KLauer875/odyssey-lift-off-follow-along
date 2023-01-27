@@ -6,6 +6,23 @@ const typeDefs = gql`
         tracksForHome: [Track!]!
         "Get a specific Track"
         track(id: ID!): Track
+        "Get a specific Module using an ID"
+        module(id: ID!): Module!
+    }
+
+    type Mutation {
+        incrementTrackViews(id: ID!): IncrementTrackviewsResponse!
+    }
+
+    type IncrementTrackviewsResponse {
+        "Similar to HTTP status code, represents the status of the mutation"
+        code: Int!
+        "Indicates whether the mutation was successful"
+        success: Boolean!
+        "Human-readable message for the UI"
+        message: String!
+        "Newly updated Track after a successful mutation"
+        track: Track
     }
 
     "A track is a group of Modules that teaches about a specific topic."
@@ -45,8 +62,12 @@ const typeDefs = gql`
         id: ID!
         "The Module's title"
         title: String!
-        "the Module's length in minutes"
+        "The Module's length in minutes"
         length: Int
+        "The Module's text-based description. In case of a video, it will be the enriched transcript."
+        content: String
+        "The Module's video URL"
+        videoUrl: String
     }
 `;
 

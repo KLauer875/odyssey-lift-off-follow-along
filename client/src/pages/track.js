@@ -29,7 +29,7 @@ export const GET_TRACK = gql`
 `;
 
 /**
- * Track Page fetched a track's data from the gql query GET_TRACK
+ * Track Page fetches a track's data from the gql query GET_TRACK
  * and provides it to the TrackDetail component to display
  */
 const Track = ({ trackId }) => {
