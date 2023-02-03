@@ -11,6 +11,7 @@ const typeDefs = gql`
     }
 
     type Mutation {
+        "Increment the number of views of a given track, when the track card is clicked"
         incrementTrackViews(id: ID!): IncrementTrackviewsResponse!
     }
 
@@ -27,7 +28,6 @@ const typeDefs = gql`
 
     "A track is a group of Modules that teaches about a specific topic."
     type Track {
-        "Track ID"
         id: ID!
         "Track title"
         title: String!
@@ -49,7 +49,6 @@ const typeDefs = gql`
 
     "Author of a complete Track or a Module"
     type Author {
-        "Author Id"
         id: ID!
         "Author name"
         name: String!

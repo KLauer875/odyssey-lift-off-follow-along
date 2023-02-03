@@ -91,6 +91,7 @@ const CardContainer = styled(Link) ({
     backgroundColor: colors.pink.lightest,
   },
   cursor: 'pointer',
+  textDecoration: 'none',
 });
 
 const CardContent = styled.div({

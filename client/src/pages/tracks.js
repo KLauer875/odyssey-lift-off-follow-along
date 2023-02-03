@@ -13,7 +13,6 @@ const TRACKS = gql`
       length
       modulesCount
       author {
-        id
         name
         photo
       }

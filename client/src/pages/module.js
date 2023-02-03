@@ -5,7 +5,7 @@ import { Layout, ModuleDetail, QueryResult } from '../components';
 
 /** GQL query to get a specific module and it's parent by their IDs */
 export const GET_MODULE_AND_PARENT_TRACK = gql`
-    query GetModuleAndParentTrack($moduleId: ID!, $trackId: ID!) {
+    query getModuleAndParentTrack($moduleId: ID!, $trackId: ID!) {
         module(id: $moduleId) {
             title
             length
